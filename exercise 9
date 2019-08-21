@@ -1,0 +1,24 @@
+//Tugas 1
+<?php
+function writeMsg(){
+  echo "Hello Function! \n\n";
+}
+writeMsg()
+?>
+
+//Tugas 2
+<?php
+function nilai($x, $y){
+  echo "Hasil Perkalian dari $x * $y adalah $y \n\n";
+}
+nilai("5", "6");
+?>
+
+//Tugas 3
+<?php
+function biodata($nama, $umur, $alamat, $hobby){
+  echo "Nama saya $nama, umur saya $umur tahun, alamat saya di $alamat, saya punya hobby yaitu $hobby";
+}
+
+biodata("agus", "30", "Jln. Malioboro, Yogjakarta", "gaming");
+?>
