@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MY WEBSITE</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <header>
+    <h1> Web Kuliner Jakarta </h1>
+    <div class="header">
+      <nav>
+        <ul>
+          <li><a href="Beranda">Beranda</a></li>
+          <li><a href="Daftar Makanan">Lokasi</a></li>
+          <li><a href="About">About</a></li>
+        <li><a href="Contact">Contact Us</a></li>
+        </ul>
+      <br>
+      <section class="body">
+        <article>
+          <h2>Kerak Telor</h2>
+        <figure>
+          <img src="http://www.hypermart.co.id/wp-content/uploads/Resep-Kerak-Telor.jpg">
+          <figcaption>Kerak Telor</figcaption>
+        </figure>
+      </article>
+      </section>
+      </div>
+        <p>Setiap kota tentunya mempunyai makanan khas     
+            masing-masing. Tidak hanya rasanya yang
+            berbeda, makanan-makanan khas setiap kota ini menunjukan ciri khas setiap daerahnya. Hal ini
+            juga berlaku pada kota Jakarta, ibu kota Indonesia. Selain terkenal dengan kemajuan
+            penduduknya, kota Jakarta juga terkenal dengan makanan khasnya yaitu kerak telor.
+
+          Kerak telor adalah makanan khas betawi yang terbuat dari bahan beras ketan putih, telur ayam,
+          ebi (udang kering yang diasinkan) yang disangrai kering ditambah bawang merah goreng, lalu
+          diberi bumbu yang dihaluskan berupa kelapa sangrai,cabai merah, kencur, jahe, merica
+          butiran, garam dan gula pasir.
+
+          Kerak telor sering dijumpai pada acara-acara yang bertemakan Betawi bersama makanan khas
+          Betawi lainnya. </p>
+      </article>
+      <br>
+      <section class="body">
+      <article>
+        <h3>Dodol Betawi</h3>
+        <figure>
+          <img src="https://makananoleholeh.com/wp-content/uploads/2017/04/Dodol-Khas-Betawi.jpg">
+          <figcaption>Dodol Betawi</figcaption>
+        </figure>
+        <p>Dodol memang bukan makanan asli Betawi, namun di Jakarta, terkenal dengan salah satu dodolnya yang bernama dodol betawi. Dari segi tampilan, mungkin dodol betawi tampak kurang menarik. Warnanya yang hitam kecokelatan kurang mengundang selera, tapi tidak dengan rasanya yang bervariasi yakni ketan putih, ketan hitam, dan durian. Dodol betawi bukanlah makanan yang bisa didapatkan setiap hari. Kehadirannya hanya pada saat Ramadhan, Idul Fitri, Idul Adha, atau pada pesta-pesta khas Betawi.
+
+        Dodol betawi menjadi makanan khas Betawi yang paling diburu oleh mereka yang tak tinggal di Jakarta, biasanya para pekerja yang ditugaskan ke luar kota dan kebetulan kota tujuannya tersebut adalah Jakarta. Dodol betawi dipasarkan dengan harga yang beragam, namun cenderung tinggi. Hal tersebut disebabkan oleh proses pembuatan dodol yang tak mudah, tak sebentar, dan memerukan tenaga ekstra untuk mengaduknya. Karena hal tersebut pula dodol betawi tak bisa dibuat oleh sembarangan orang.</p>
+      </article>
+      <br>
+      <section class="body">
+      <article>
+        <h4>Kembang Goyang</h4>
+        <figure>
+          <img src="https://makananoleholeh.com/wp-content/uploads/2017/04/Kembang-Goyang-Khas-Betawi.jpg">
+          <figcaption>Kembang Goyang</figcaption>
+          <p>Kue kembang goyang adalah makanan khas Betawi berikutnya yang bisa kamu coba. Kue ini dinamakan kembang goyang karena bentuknya yang seperti bunga kembang dan dibuat dengan cara digoyang-goyang di atas minyak panas hingga adonannya terlepas dari cetakan. Kue ini termasuk kue tradisional khas Betawi yang paling diminati masyarakat dari berbagai kota.
+
+          Pada mulanya, kue kembang goyang hanya bercita rasa original dan manis. Tapi semakin ke sini, banyak variasi yang diberikan pada kembang goyang sehingga rasanya pun semakin beragam. Kue ini biasanya menjadi hidangan yang disuguhkan oleh warga Betawi untuk orang-orang yang bertamu ke rumahnya. Dan yang lebih unik lagi, kue ini biasanya ditempatkan dalam stoples bening agar pesonanya tak tertutup oleh warna-warna yang terdapat pada stoplesnya. </p>
+        <br><br>
+      <div class="footer">
+        <footer>
+	        &copy; 2019 Eko Dwi Warnoto
+        </footer>
+    </header>
+</html>
+
+body{
+  background-image: url("https://wallpapercave.com/wp/wp1865851.jpg");
+  background-size: 100% 100%;
+  min-height: 80px;
+}
+
+h1, h2, h3, h4{
+ color: white;
+ padding-bottom: 12%;
+ padding-top: 5%;
+ text-align: center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 50px;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;}
+nav li {
+	display: inline;
+	margin-right: 40px;}
+nav li a {
+	color: #ffffff;}
+nav li a:hover, nav li a.current {
+	color: #000000;
+}
+
+p{
+  color : white;
+  background-color : transparent;
+}
