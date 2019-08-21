@@ -1,0 +1,34 @@
+
+//1.lets form a sentence
+<?php
+$word = 'JavaScript';
+$second = 'is';
+$third = 'awesome';
+$fourth = 'and';
+$fifth = 'I';
+$sixth = 'love';
+$seventh = 'it!';
+
+echo "$word $second $third $fourth $fifth $sixth $seventh \n "
+?>
+
+2.Index Accessing - 1 by 1
+<?php
+$words = array("wow", "JavaScript", "is", "so", "cool");
+
+echo "First Word : " . $words[0];
+echo "\nSecond Word : " . $words[1];
+echo "\nThird Word : " . $words[2];
+echo "\nFourth Word : " . $words[3];
+echo "\nFifth Word : " . $words[4];
+
+?>
+
+3. Breaking Sentence (Again) using Substring.
+<?php
+echo "First Word : " . Substr("wow JavaScript is so cool",0,3);
+echo "\nSecond Word : " . Substr("wow JavaScript is so cool",4,10);
+echo "\nThird Word : " . Substr("wow JavaScript is so cool",14,3);
+echo "\nFourth Word : " . Substr("wow JavaScript is so cool",17,3);
+echo "\nFifth Word : " . Substr("wow JavaScript is so cool",20,5);
+?>
