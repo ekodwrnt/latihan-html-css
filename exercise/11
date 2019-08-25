@@ -1,0 +1,18 @@
+<?php
+//Logic Challenge
+$string = "Hello World and Coders";
+$string2 = "Jhon Doe";
+$string3 = "I am a bookworm";
+$string4 = "Coding is my hobby";
+$string5 = "Super";
+$hasil = strrev($string);
+$hasil2 = strrev($string2);
+$hasil3 = strrev($string3);
+$hasil4 = strrev($string4);
+$hasil5 = strrev($string5);
+echo $hasil."\n";
+echo $hasil2."\n";
+echo $hasil3."\n";
+echo $hasil4."\n";
+echo $hasil5."\n";
+?>
