@@ -1,0 +1,22 @@
+<?php
+function xo($str) {
+  $x = 0;
+  $o = 0;
+  $i = 0;
+  for (; $i <= strlen($str); $i++) {
+      if ($str[$i] === "x") {
+        return "true\n";
+          $i++;
+      } else if ($str[$i] === "o") {
+        return "false\n";
+          $o++;
+      }
+  }
+}
+
+echo xo("xoxoxo");
+echo xo("oxooxo");
+echo xo("oxo");
+echo xo("xxxooo");
+echo xo("xoxooxxo");
+?>
