@@ -1,0 +1,55 @@
+<?php
+$angka1 = 5;
+$angka2 = 8;
+if($angka2 > $angka1){
+  echo "Perbandingan Angka 5,8 True";
+}elseif($angka2 < $angka1){
+  echo "Perbandingan Angka 5,8 False";
+}else{
+  echo "Perbandingan Angka 5,8 -1";
+}
+echo "\n";
+
+$angka1 = 5;
+$angka2 = 3;
+if($angka2 > $angka1){
+  echo "Perbandingan Angka 5,3 True";
+}elseif($angka2 < $angka1){
+  echo "Perbandingan Angka 5,3 False";
+}else{
+  echo "Perbandingan Angka 5,3 -1";
+}
+echo "\n";
+
+$angka1 = 4;
+$angka2 = 4;
+if($angka2 > $angka1){
+  echo "Perbandingan Angka 4,4 True";
+}elseif($angka2 < $angka1){
+  echo "Perbandingan Angka 4,4 False";
+}else{
+  echo "Perbandingan Angka 4,4 -1";
+}
+echo "\n";
+
+$angka1 = 3;
+$angka2 = 3;
+if($angka2 > $angka1){
+  echo "Perbandingan Angka 3,3 True";
+}elseif($angka2 < $angka1){
+  echo "Perbandingan Angka 3,3 False";
+}else{
+  echo "Perbandingan Angka 3,3 -1";
+}
+echo "\n";
+
+$angka1 = 17;
+$angka2 = 2;
+if($angka2 > $angka1){
+  echo "Perbandingan Angka 17,2 True";
+}elseif($angka2 < $angka1){
+  echo "Perbandingan Angka 17,2 False";
+}else{
+  echo "Perbandingan Angka 17,2 -1";
+}
+?>
