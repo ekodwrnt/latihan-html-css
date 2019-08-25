@@ -1,0 +1,12 @@
+<?php
+function konversiMenit($menit) {
+  $jam = floor($menit / 60);
+  $mnt = floor($menit % 60);
+  return $mnt <= 4 ? $jam.":0".$mnt."\n" : $jam .':' .$mnt."\n";
+}
+echo konversiMenit(63); 
+echo konversiMenit(124); 
+echo konversiMenit(53);
+echo konversiMenit(88);
+echo konversiMenit(120);
+?>
